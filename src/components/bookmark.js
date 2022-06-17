@@ -9,7 +9,6 @@ const Bookmark= ({productItems,click1})=> {
      <div className="container">
          
        
-         
          <div className="item">
             {productItems.map((productItem)=>{
                 

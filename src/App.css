@@ -1,23 +1,36 @@
 body{
   background-color: #e8f0ff;
+  padding: 0;
+  margin: 0;
 }
 .App {
-  /* text-align: center; */
-  display: flex;
+
   background-color: #e8f0ff;
 }
 .container1
 {
-width: 50%;
+width: 600px;
 background-color: #e8f0ff;
 text-align: center;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
 
 }
 .container2
 {
-width: 50%;
-background-color: #e8f0ff;
-text-align: center;
+  width: 600px;
+  background-color: #e8f0ff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .App-logo {
   height: 40vmin;

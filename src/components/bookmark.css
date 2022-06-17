@@ -20,14 +20,12 @@
     flex-direction: column;
     text-align: center;
     margin: 40px;
-    margin-left: 38%;
+
     background-color: #82cbf5;
     width: 500px;
     height: 90px;
     border-radius: 15px;
     box-shadow: 1px 0 14px 1px black;
-    position: flex;
-    align-items: space-around;
     cursor: pointer;
     
 }
@@ -44,8 +42,7 @@
 .card:hover
 {
     background-color: rgb(199, 225, 255);
-    width: 520px;
-    height: 110px;
+    transform: scale(1.1);
 }
 .card:hover .to-bookmark
 {
@@ -63,7 +60,12 @@ img
     border-radius: 10px;
 }
 
+.location-div
+{
+    margin-left: 89px;
+}
 .to-bookmark
 {
+    margin-left: 89px;
     display: none;
 }
